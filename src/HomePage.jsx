@@ -1,10 +1,8 @@
-
-
+import './HomePage.css';
 function HomePage() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>This is the home page</p>
+    <div className='homepage'>
+      <h1 id='homepageh1'>Home Page</h1>
     </div>
   );
 }

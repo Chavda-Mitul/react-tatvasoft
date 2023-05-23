@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-.links{
+.links {
   margin: 5px;
   color: red;
+}
+
+body {
+  background-color: rgb(176, 250, 146);
 }

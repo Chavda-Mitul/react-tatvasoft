@@ -1,24 +1,11 @@
-import { AdminPage } from './AdminPage';
 import './App.css';
-import HomePage from './HomePage';
-import {Route, Link, BrowserRouter, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <div>
-      <Link to = "/">HomePage</Link>
-      <Link to = "/admin">AdminPage</Link>
-      
-    </div>
-    <Routes>
-      <Route path='/' element={<HomePage/>}/>
-      <Route path='/admin' element={<AdminPage/>}/>
-    </Routes>
-
-    </BrowserRouter>
-   
+    <Navbar/>
+    {/* <ContactUs/> */}
     </>
   );
 }
@@ -28,3 +15,8 @@ export default App;
 // get name in console in when pressed button
 // set default value in the hooks
 //  
+
+
+// use effect
+// formic yup for validation schema
+// validate the form
